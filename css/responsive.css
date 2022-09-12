@@ -1,0 +1,212 @@
+
+@media screen and (max-width: 1080px) {
+    .header-text {
+        width: 290px;
+    }
+    .company-items {
+        display: block;
+        margin-top: 10px;
+    }
+
+        .blog-card {
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .blog-image img {
+            width: 300px;
+        }
+    
+        .blog-content {
+            margin-left: 30px;
+            margin-right: 0px;
+            float: left;
+        }
+    
+        .blog-bottom {
+            position: static;
+            margin-left: 50px;
+            margin-top: 60px;
+        }
+    
+        .blog-author {
+            position: relative;
+            bottom: 40px;
+            margin-top: 0px;
+            margin-left: 110px;
+        }
+
+}
+
+@media screen and (max-width: 920px) {
+    .company-items {
+        display: inline-block;
+    }
+        .cards {
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    
+        .card {
+            width: 200px;
+            height: 250px;
+        }
+    
+        .card-active {
+            width: 200px;
+            height: 250px;
+        }
+
+    .blog-cards {
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+        .blog-card {
+            width: fit-content;
+        }
+
+        .faq-content {
+            width: 100%;
+            margin-left: 50px;
+        }
+
+        .faq-image {
+            display: none;
+        }
+
+.download-email input {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.download-email button {
+    margin-top: 10px;
+    float: right;
+}
+
+.list, .logos-list {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media screen and (max-width: 560px) {
+    nav {
+        display: none;
+    }
+
+    .menu {
+        position: relative;
+        right: 5%;
+        bottom: 10%;
+        display: block;
+        float: right;
+    }
+    .menu img {
+        background-color: #ffffff;
+    }
+
+        .logo {
+            margin-bottom: 10px;
+        }
+
+        .header-text {
+            width: 90%;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+    .header-image {
+        width: 80%;
+    }
+
+    .companies {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+        .api-heading {
+            margin-left: 30px;
+        }
+    
+        .cards {
+            margin-left: 30px;
+        }
+
+        .blog-heading {
+            margin-left: 30px;
+        }
+    
+        .blog-cards {
+            margin-left: 30px;
+        }
+
+        .faq-content {
+            margin-left: 30px;
+        }
+
+        .download-section {
+            height: 250px;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .download-content {
+            margin-left: 30px;
+        }
+
+        .download-email {
+            height: 100px;
+            margin-left: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .download-email button {
+            position: static;
+        }
+    
+        .footer-section {
+            height: 500px;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    
+        .footer-left {
+            width: 100%;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+    
+        .list .list-items {
+            margin-right: 0px;
+            margin-bottom: 5px;
+        }
+    
+        .footer-right {
+            width: 100%;
+            align-items: flex-start;
+            margin-right: 0px;
+            margin-left: 50px;
+        }
+    
+        .footer-logos {
+            margin-right: 20px;
+        }
+    
+        .logos-list {
+            margin-top: 20px;
+        }
+    
+        .logos-list .list-items {
+            margin-right: 0px;
+            margin-bottom: 5px;
+        }
+}
